@@ -1,0 +1,19 @@
+*{
+	text-align:center;
+	background-image:url(video/troll.gif);
+}
+video{
+	width:1000px;
+	height:600px;
+}
+p{
+	font-size:100px;
+	-webkit-animation:colorPulse .5s infinite alternate
+}
+@-webkit-keyframes colorPulse {
+  0% {color:white;}
+  25%{color:red;}
+  50%{color:black;}
+  75%{color:blue;}
+  100%{color:white;}
+}
