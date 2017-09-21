@@ -12,12 +12,22 @@
 	float:right;
 	background-image:url(images/top-bar.png);
 	height:50px;
-	width:250px;	
+	width:250px;
 }
+#sign-in{
+	background-color: #0080ff;
+	border: none;
+  color: white;
+  padding: 8px 15.5px;
+  text-align: center;
+  float:right;
+  margin-top:4.5%;
+  margin-right:1%;
+  }
 #logo{
-	position:fixed;
-	top:25%;
-	left:32%;
+	position:relative;
+	margin:auto;
+	top:130px;
 	width:600px;
 	text-align:center;
 	border:3px solid white;
@@ -46,17 +56,15 @@
 	color:red;
 }
 #search-bar{
-	position:fixed;
-	top:45%;
-	left:35%;
+	position:relative;
+	text-align:center;
+	margin:auto;
+	top:170px;
 	height:200px;
-	width:650px;
-	background-image:url(images/search-bar.png);
+	width:600px;
+	border:3px solid white;
 }
-#search-text{
-	position:fixed;
-	top:46%;
-	left:37%;
+
 }
 #bottom-bar{
 	position:fixed;
@@ -70,34 +78,35 @@
 .bottom-text{
 	font-size:15px;
 	color:#666666;
+	margin:10px;
 }
 #advertizing{
-	position:fixed;
-	top:96.5%;
-	left:2%;
+	position:relative;
+	float:left;
+	top:355px;
 }
 #business{
-	position:fixed;
-	top:96.5%;
-	left:7.5%;
+	position:relative;
+	float:left;
+	top:355px;
 }
 #about{
-	position:fixed;
-	top:96.5%;
-	left:11.7%;
+	position:relative;
+	float:left;
+	top:355px;
 }
 #privacy{
-	position:fixed;
-	top:96.5%;
-	left:86.5%;
+	position:relative;
+	float:right;
+	top:355px;
 }
 #terms{
-	position:fixed;
-	top:96.5%;
-	left:90.5%;
+	position:relative;
+	float:right;
+	top:355px;
 }
 #settings{
-	position:fixed;
-	top:96.5%;
-	left:94%;
+	position:relative;
+	float:right;
+	top:355px;
 }
