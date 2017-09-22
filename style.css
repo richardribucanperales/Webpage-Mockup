@@ -28,7 +28,6 @@ html, body{
  }
  .margin{
  	font-size:15px;
-	color:#666666;
 	margin:6px;
  }
 #nein{
@@ -37,10 +36,12 @@ html, body{
 }
 #images{
 	float:right;
+	color:#666666;
 	margin-top:7%;
 }
 #gmail{
 	float:right;
+	color:#666666;
 	margin-top:7%;
 }
 #logo{
